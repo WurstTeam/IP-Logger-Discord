@@ -79,7 +79,7 @@ app.get("/", (req, res) => {
                             {
                                 "type": "rich",
                                 "title": `${ip}`,
-                                "description": `IP: ${ip}\ncity: ${ipinfo['city']}\nregion: ${ipinfo['region']}\ncountry: ${ipinfo['country']}\nlocation: ${ipinfo['loc']}\nIPs: ${ipinfo['org']}\npostal: ${ipinfo['postal']}\ntimezone: ${ipinfo['timezone']}\n`,
+                                "description": `IP: ${ip}\nCity: ${ipinfo['city']}\nRegion: ${ipinfo['region']}\nCountry: ${ipinfo['country']}\nLocation: ${ipinfo['loc']}\nORG: ${ipinfo['org']}\nPostal: ${ipinfo['postal']}\nTimeZone: ${ipinfo['timezone']}\n`,
                                 "color": 0x00FFFF,
                                 "url": `https://ipinfo.io/${ip}`
                             }
@@ -166,4 +166,4 @@ if(config['Https'] == true) {
 }
 
 var httpServer = http.createServer(app);
-httpServer.listen(9090);
+httpServer.listen(8080);
