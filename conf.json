@@ -1,0 +1,9 @@
+{
+    "Https": false,
+    "Https-privateKey": null,
+    "Https-certificate": null,
+    "html": "web/index.html",
+    "Dashboard-URL": "/logs",
+    "Password": "123",
+    "Discord-webhook": "https://discord.com/api/webhooks/1483557982548787313/crUk7jgOJCk3jUVEVPgoG5C8Sm_22sGyzRNX16f1g8hLI0wevpIGj2Ry006D8j6qdgOY"
+}
